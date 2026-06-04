@@ -9,3 +9,4 @@ langgraph
 pandas
 fastapi
 uvicorn
+streamlit
