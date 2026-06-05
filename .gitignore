@@ -23,7 +23,7 @@ Thumbs.db
 *.db
 *.sqlite
 *.sqlite3
-
+!data/credit.db
 # Logs
 *.log
 
