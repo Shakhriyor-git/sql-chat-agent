@@ -4,6 +4,14 @@
 
 Built with **LangGraph**, **OpenAI**, **SQLite**, and **FastAPI**. The agent turns natural-language questions (e.g. *"Which age group has the highest default rate?"*) into SQL queries, executes them against a 149K-row credit dataset, and returns a clear answer — no SQL knowledge required from the user.
 
+## 🚀 Live Demo
+
+**API (Swagger UI):** https://sql-chat-agent.onrender.com/docs
+
+Try the `POST /ask` endpoint with a question like *"How many borrowers defaulted?"*
+
+> Note: The free Render instance may take ~30 seconds to wake up on the first request.
+
 ---
 
 ## What it does
